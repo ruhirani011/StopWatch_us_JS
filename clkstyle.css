@@ -1,0 +1,41 @@
+.image {
+    width: 30%;
+    height: 30%;
+} 
+* {
+background-color: rgb(109, 217, 221);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    text-align: center;
+}
+.container {
+    width: 800px;
+    margin: 30px auto;
+    color: whitesmoke;
+    text-align: center;
+}
+#seconds,#tens, #mins{
+    font-size: 2em;
+}
+button {
+    width: 150px;
+    height: 50px;
+    margin: 0 5px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.966);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    
+}
+button:hover {
+    background: white;
+    color: rgb(109, 217, 221);
+    text-transform: capitalize;
+    font-weight: 800;
+}
